@@ -8,43 +8,25 @@ body{
     grid-auto-rows: minmax(150px, auto);
     /* grid-template-columns:  */
     height:100vh;
-    background: #f23557;
-    color: #f0d43a;
+    /* sof grass gradient from https://webgradients.com/ */
+    background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+    color: black;
     justify-content: center;
-    grid-gap: 1em;
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
 }
 
-.holder{
-
-}
-
 .entry{
-    background: rgba(59, 74, 107, .4);
+    background: rgba(65, 107, 59, 0.4);
 }
 
 #entryHolder{
-
-}
-
-#date{
-
+    color: ivory;
+    font-size: 25px;
 }
 
 #temp{
-
-}
-
-#content{
-
-}
-
-.headline {
-
-}
-.title{
-
+    font-size: 30px;
 }
 
 /*  Basic Styling To Override Default For Basic HTML Elements */
@@ -73,9 +55,16 @@ button{
     font-family: 'Oswald', sans-serif;
     border: none;
     box-shadow: 2px 4px 5px #444;
+    cursor: pointer;
 }
+
 h1{
     font-size: 36px;
+}
+
+h2{
+    font-size: 15px;
+    color: grey;
 }
 
 textarea{
@@ -84,6 +73,7 @@ textarea{
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
 }
+
 /* Reset style for HTML element on active to have no border*/
 input:focus,
 select:focus,
@@ -91,21 +81,22 @@ textarea:focus,
 button:focus {
     outline: none;
 }
+
 /* Style for Placeholder Text*/
-::placeholder { /* Firefox, Chrome, Opera */ 
-    color: #f0d43a; 
+::placeholder { /* Firefox, Chrome, Opera */
+    color: #d8d6ca;
     font-family: 'Oswald', sans-serif;
 
-} 
-  
-:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
-    color: #f0d43a; 
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #d8d6ca;
     font-family: 'Oswald', sans-serif;
 
-} 
-  
-::-ms-input-placeholder { /* Microsoft Edge */ 
-    color: #f0d43a; 
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #d8d6ca;
     font-family: 'Oswald', sans-serif;
 
-} 
+}

@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "description": "An intelligent app to generate your weather journal.",
     "main": "server.js",
+    "engines": {
+        "node": "14.16.1"
+      },
     "dependencies": {
       "body-parser": "^1.19.0",
       "cors": "^2.8.5",

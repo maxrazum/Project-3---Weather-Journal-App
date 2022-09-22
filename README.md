@@ -1,5 +1,6 @@
 # Weather-Journal App
 * This project uses Web API and user data to dynamically update the UI.
+* For this project I used the OpenWeatherMap API to get current weather info based on the user's zip code. The user can input their zip (US only) and enter their feelings, which will generate a journal entry. This entry includes the current date, temperature at the location they entered and the text the user wrote.
 
 ### LANGUAGES
 
